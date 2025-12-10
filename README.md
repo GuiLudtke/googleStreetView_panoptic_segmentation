@@ -27,8 +27,9 @@ Para executar o projeto pelo Google Colab, siga as instruções
 ```bash
 !git clone https://github.com/GuiLudtke/googleStreetView_panoptic_segmentation.git repo #Clone the repository from GitHub
 ```
-```%mv ./repo/* .
-   %rm -rf ./repo
+```bash
+%mv ./repo/* .
+%rm -rf ./repo
 ```
 
 No processo de criação e ativação do ambiente virtual (`venv`), especialmente no sistema operacional **Windows**, é importante garantir que as permissões para execução de scripts estejam habilitadas no **PowerShell**. Caso contrário, a ativação do ambiente pode não funcionar corretamente.
