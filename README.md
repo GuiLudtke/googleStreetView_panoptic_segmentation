@@ -89,7 +89,7 @@ YOUR_GOOGLE_API_KEY
 Execute the pipeline with the following command:
 
 ```bash
-python src/run_segmentation.py config.txt
+python src/run_segmentation2.py config.txt
 ```
 
 > This will download the images and apply the panoptic segmentation model.
@@ -149,10 +149,10 @@ streetview_segmentation_project/
 │
 ├── src/                            
 │   ├── class_label_traducao.json  
-│   ├── panoptic_segmentation.py   # Script to apply the panoptic segmentation model
-│   ├── streetview_download.py     # Script to download GSV images via API
-│   └── run_segmentation.py        # Main script to run the pipeline 
-│
+│   ├── panoptic_segmentation2.py   # Script to apply the panoptic segmentation model
+│   ├── streetview_download.py      # Script to download GSV images via API
+│   └── run_segmentation2.py        # Main script to run the pipeline 
+│      
 ├── .gitignore                     
 ├── config.txt                     # API key
 ├── README.md                      # Project documentation
