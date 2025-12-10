@@ -16,27 +16,20 @@ Follow the steps below to set up the project on your local machine:
 ---
 ## Configurações Iniciais
 
-Para executar o projeto, é necessário ter o **Python 3.10 ou superior**, que pode ser baixado no site oficial: [https://www.python.org/downloads/](https://www.python.org/downloads/).
+Para executar o projeto pelo Google Colab, siga as instruções
 
 ### 🔗 Clone the repository
 
-1. **Open PowerShell**  
-Right-click the folder where you want the project to be saved and select:  
-**"Open in Terminal"** or **"Open PowerShell window here"**.
+1. **Open a new project on Google Colab**  
+
 
 2. **Paste the following commands**  
-```bash
-git clone https://github.com/gabrielbolzoni/googleStreetView_panoptic_segmentation.git #Clone the repository from GitHub
+```!git clone https://github.com/GuiLudtke/googleStreetView_panoptic_segmentation.git repo #Clone the repository from GitHub
 ```
-```bash
-cd googleStreetView_panoptic_segmentation #Navigate to the project folder
+```%mv ./repo/* .
+   %rm -rf ./repo
 ```
-```bash
-python -m venv venv #Create the virtual environment
-```
-```bash
-.\venv\Scripts\Activate #Activate the virtual environment (Windows)
-```
+
 No processo de criação e ativação do ambiente virtual (`venv`), especialmente no sistema operacional **Windows**, é importante garantir que as permissões para execução de scripts estejam habilitadas no **PowerShell**. Caso contrário, a ativação do ambiente pode não funcionar corretamente.
 ```bash
 pip install -r requirements.txt #Install dependencies
