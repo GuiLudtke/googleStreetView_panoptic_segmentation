@@ -24,7 +24,8 @@ Para executar o projeto pelo Google Colab, siga as instruções
 
 
 2. **Paste the following commands**  
-```!git clone https://github.com/GuiLudtke/googleStreetView_panoptic_segmentation.git repo #Clone the repository from GitHub
+```bash
+!git clone https://github.com/GuiLudtke/googleStreetView_panoptic_segmentation.git repo #Clone the repository from GitHub
 ```
 ```%mv ./repo/* .
    %rm -rf ./repo
